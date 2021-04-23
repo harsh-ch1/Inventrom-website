@@ -1,0 +1,90 @@
+body{
+	margin: 0px;
+}
+.inventrom-header{
+	position: relative;
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	width: 100%;
+	background-color: #F0FFF0 ;
+	z-index: 100;
+}
+
+.inventrom-nav{
+	float: right;
+	margin-right: 350px;
+	margin-top: 30px;
+	height: 100%;
+	
+}
+.inventrom-nav a{
+	color: grey;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: "Sans-serif, Arial";
+	padding-right: 20px;
+	padding-top: 8%;
+	display: inline-block;
+}
+.div-logo{
+	margin-top: 30px;
+	text-align: center;
+	float: left;
+	margin-left: 250px;
+}
+.site-content{
+	position: absolute;
+	top:78px;
+	width: 100%;
+}
+.image-content{
+	background-image: url(../images/background-layer.jpg);
+	height: 540px;
+	width: 100%;
+	text-align: center;
+
+}
+.quote{
+	
+	font-family: "Sans-serif, Arial";
+	font-style: italic;
+	font-weight: normal;
+	position: relative;
+	color: #F0FFF0;
+	top:37%;
+}
+.card-list{
+	width: 100%;
+}
+.about{
+	text-align: center;
+	color: #139139;
+}
+.card{
+	width: 22%;
+	padding: 1.5%;
+	height: 300px;
+	float: left;
+	text-align: left;
+	margin-left: 170px;
+}
+
+.card img{
+    width: 160%;
+    
+}
+.about-text{
+	text-align: center;
+	color: grey;
+	font-size: 19px;
+}
+.about-text2{
+	color: grey;
+	font-size: 15px;
+	text-align: left;
+}
+.award-section{
+	width: 100%;
+
+}

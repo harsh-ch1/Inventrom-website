@@ -1,14 +1,16 @@
 body{
 	margin: 0px;
+	font-family: Helvetica;
 }
 .inventrom-header{
 	position: relative;
 	left: 0px;
 	right: 0px;
-	height: 100px;
+	height: 97px;
 	width: 100%;
-	background-color: #F0FFF0 ;
+	background-color: white ;
 	z-index: 100;
+	margin-top: -13px;
 }
 
 .inventrom-nav{
@@ -16,6 +18,7 @@ body{
 	margin-right: 350px;
 	margin-top: 30px;
 	height: 100%;
+	font-family: Arial;
 	
 }
 .inventrom-nav a{
@@ -35,7 +38,7 @@ body{
 }
 .site-content{
 	position: absolute;
-	top:78px;
+	top:67px;
 	width: 100%;
 }
 .image-content{
@@ -47,7 +50,7 @@ body{
 }
 .quote{
 	
-	font-family: "Sans-serif, Arial";
+	font-family: Helvetica;
 	font-style: italic;
 	font-weight: normal;
 	position: relative;
@@ -60,31 +63,92 @@ body{
 .about{
 	text-align: center;
 	color: #139139;
+	margin-bottom: 10px;
+
 }
 .card{
-	width: 22%;
-	padding: 1.5%;
-	height: 300px;
+	width: 41%;
+	padding-left: 8.5%;
+	margin-top: 13px;
 	float: left;
 	text-align: left;
-	margin-left: 170px;
+	margin-bottom: 5px;
 }
 
 .card img{
-    width: 160%;
+    width: 100%;
     
 }
 .about-text{
+	margin-top: 0px;
 	text-align: center;
 	color: grey;
-	font-size: 19px;
+	font-size: 18px;
+
 }
 .about-text2{
 	color: grey;
-	font-size: 15px;
+	font-size: 17px;
 	text-align: left;
+	
 }
 .award-section{
 	width: 100%;
 
+}
+.about2{
+	text-align: center;
+	color: #139139;
+	font-size: 50px;
+	
+}
+.card2{
+	width: 22%;
+	
+}
+.award-card {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.award-card img{
+    width: 100%;
+    
+}
+.award-text{
+	color: #808080;
+	font-size: 12px;
+	margin-top: 19px;
+}
+.line{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color:#808080;
+}
+.inventrom-footer{
+	position: relative;
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	width: 100%;
+	background-color:#139139;
+	z-index: 101;
+	float: bottom;
+	margin-top: 200%;
+}
+.footer-text{
+    color: white;
+    margin-left: 224px;
+    padding-top: 13px;
+}
+.social{
+	color: white;
+	float: right;
+	padding: 7px;
+    
+	margin-top: -27px;
+}
+.header-links{
+    color: grey;
+    font-family: Helvetica;
 }
